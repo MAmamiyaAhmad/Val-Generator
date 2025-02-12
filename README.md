@@ -16,20 +16,76 @@ Pastikan Anda telah menginstal [Node.js](https://nodejs.org/) (versi 12 atau leb
 
 ## Instalasi
 
-1. **Clone repositori ini**:
+Tentu! Berikut adalah versi singkat dari instruksi tersebut:
+
+1. **Clone repository**:
    ```bash
-   git clone [<URL_REPO>](https://github.com/MAmamiyaAhmad/Val-Generator.git)
+   git clone https://github.com/MAmamiyaAhmad/Val-Generator.git
    ```
 
-2. **Masuk ke dalam direktori proyek**:
+2. **Masuk ke direktori proyek**:
    ```bash
-   cd Val
+   cd Val-Generator
    ```
 
-3. **Instalasi dependensi**:
+3. **Instal dependensi**:
    ```bash
    npm install
    ```
+
+4. **Kompilasi TypeScript**:
+   ```bash
+   tsc
+   ```
+
+## Penjelasan
+
+Berikut adalah penjelasan dan langkah-langkah yang lebih rinci untuk setiap perintah yang kamu sebutkan:
+
+1. **Clone repository ini**:
+   Perintah ini digunakan untuk menyalin seluruh repository dari GitHub ke mesin lokalmu.
+
+   ```bash
+   git clone https://github.com/MAmamiyaAhmad/Val-Generator.git
+   ```
+
+   **Penjelasan**:  
+   - `git clone` akan membuat salinan dari repositori yang ada di GitHub ke dalam folder lokal di komputermu.
+   - Setelah perintah ini dijalankan, folder `Val-Generator` akan dibuat di dalam direktori tempat kamu menjalankan perintah ini.
+
+2. **Masuk ke dalam direktori proyek**:
+   Setelah berhasil meng-clone repositori, kamu harus masuk ke dalam direktori `Val-Generator` untuk dapat melakukan pengaturan dan instalasi lebih lanjut.
+
+   ```bash
+   cd Val-Generator
+   ```
+
+   **Penjelasan**:  
+   - `cd` adalah perintah untuk "change directory" atau berpindah direktori.
+   - Dengan menjalankan perintah ini, kamu akan berpindah ke folder `Val-Generator` tempat kamu ingin melakukan instalasi dan konfigurasi selanjutnya.
+
+3. **Instalasi dependensi**:
+   Setelah berada di dalam direktori proyek, kamu perlu menginstal dependensi yang dibutuhkan proyek ini agar bisa berjalan dengan baik. 
+
+   ```bash
+   npm install
+   ```
+
+   **Penjelasan**:  
+   - `npm install` akan membaca file `package.json` yang ada di proyek dan mengunduh serta menginstal semua paket yang dibutuhkan untuk menjalankan aplikasi ini.
+
+4. **Kompilasi TypeScript**:
+   Setelah dependensi terinstal, kamu perlu mengkompilasi file TypeScript menjadi JavaScript agar aplikasi bisa berjalan. Perintah ini akan menjalankan kompilasi menggunakan TypeScript compiler (`tsc`).
+
+   ```bash
+   tsc
+   ```
+
+   **Penjelasan**:  
+   - `tsc` adalah perintah untuk menjalankan TypeScript compiler yang akan mengubah semua file `.ts` (TypeScript) di dalam proyek menjadi file `.js` (JavaScript). 
+   - Setelah kompilasi selesai, file JavaScript siap untuk dijalankan.
+
+Jika sudah mengikuti langkah-langkah ini dengan benar, kamu siap untuk menjalankan proyek! Adakah langkah lain yang perlu kamu bantu?
 
 ## Penggunaan
 
