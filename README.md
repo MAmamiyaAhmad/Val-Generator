@@ -18,7 +18,7 @@ Pastikan Anda telah menginstal [Node.js](https://nodejs.org/) (versi 12 atau leb
 
 1. **Clone repositori ini**:
    ```bash
-   git clone <URL_REPO>
+   git clone [<URL_REPO>](https://github.com/MAmamiyaAhmad/Val-Generator.git)
    ```
 
 2. **Masuk ke dalam direktori proyek**:
