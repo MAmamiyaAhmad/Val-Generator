@@ -1,0 +1,22 @@
+{
+  "name": "val",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+  "start": "node dist/index.js",
+  "build": "tsc && if not exist dist\\bin mkdir dist\\bin && copy bin\\generate dist\\bin\\generate",
+  "generate": "node dist/bin/generate"
+  },
+  "bin": {
+    "generate": "./dist/bin/generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
